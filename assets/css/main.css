@@ -3300,6 +3300,74 @@
 					padding-left: 0;
 				}
 
+/* =========== Reading Plans =========== */
+.collapsible {
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 48px;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: #555;
+  }
+  
+  .content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+  }
+
+.no-js .reading-plan {
+	display: none;
+  }
+  
+  .reading-plan {
+	display: flex;
+	justify-content: space-around;
+	height: auto;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-self: center;
+	border-style: solid;
+	max-width: fit-content;
+  }
+  
+  .reading-plan-holder {
+	width: 130px;
+	border-color: #555
+  }
+  
+  .reading-plan-holder img {
+	display: block;
+	margin: auto;
+	width: 50px;
+  }
+  
+  .reading-plan-holder p {
+	text-align: center;
+	font-size: 14px;
+	margin-top: -10px;
+	color: #6f6f6f;
+	font-weight: 700;
+	border-style: solid;
+	border: 2px;
+	border-color: red;
+  }
+  
+  .reading-plan-holder .readings-counter {
+	text-align: center;
+	font-weight: 700;
+	font-size: 21px;
+	margin-top: 13px;
+  }
+
 /* CTA */
 
 	#cta {
